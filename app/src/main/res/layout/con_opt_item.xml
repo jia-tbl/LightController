@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    android:scrollbarStyle="insideOverlay">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bg_shape"
+            android:orientation="vertical"
+            android:padding="@dimen/appbar_padding_top">
+
+
+            <include layout="@layout/cont_opt_item_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:text="@string/brightLevel1"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/brightLevelBtn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/bright_lv_1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:text="@string/brightLevel2"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/brightLevelBtn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/bright_lv_2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:text="@string/brightLevel3"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/brightLevelBtn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/bright_lv_3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:text="@string/brightLevel4"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/brightLevelBtn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/appbar_padding_top"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/bright_lv_4"/>
+            </LinearLayout>
+
+            <include layout="@layout/cont_opt_progress"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_set_as_scene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/appbar_padding_top"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:background="@color/barBackground"
+            android:src="@android:drawable/ic_menu_set_as"/>
+
+    </FrameLayout>
+</ScrollView>

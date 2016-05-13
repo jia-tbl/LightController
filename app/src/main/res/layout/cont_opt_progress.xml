@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/fab_margin"
+        android:text="@string/colorWC"
+        android:textColor="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/seekBarWarmCool"
+        style="@style/Base.Widget.AppCompat.SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/light_pro_wc"
+        android:thumb="@mipmap/img_pro_scril" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/fab_margin"
+        android:text="@string/bright"
+        android:textColor="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/seekBarBright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/light_bright"
+        android:thumb="@mipmap/img_pro_scril" />
+
+</LinearLayout>

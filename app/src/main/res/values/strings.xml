@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">YFTC</string>
+    <string name="title_activity_tabed">YFTC</string>
+    <string name="yf_name">YuFengTianCheng</string>
+
+    <string name="serverNoDataTip">Server Data Not Available</string>
+
+    <string name="scan_text">put code into scan text</string>
+    <string name="title_activity_scan">Scan Code</string>
+    <string name="title_activity_cont">Controller Management</string>
+    <string name="title_activity_config">Config Controller</string>
+    <string name="title_activity_login">User</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add</string>
+    <string name="back">Back</string>
+
+    <string name="text_tip_wifiName">Wifi Name</string>
+    <string name="text_tip_wifiPwd">Wifi Pwd</string>
+    <string name="btn_text_choose">Re-Choose</string>
+    <string name="btn_text_config">Config</string>
+
+    <string name="brightLevel1">Full Bright</string>
+    <string name="brightLevel2">Yellow</string>
+    <string name="brightLevel3">Sun Shine</string>
+    <string name="brightLevel4">White</string>
+
+    <string name="colorWC">COLOR TEMP</string>
+    <string name="bright">BRIGHT</string>
+
+    <string name="edit_tip_name">Cont Name</string>
+    <string name="edit_tip_code">Cont Code</string>
+    <string name="edit_tip_btn1">BUTTON-1</string>
+    <string name="edit_tip_btn2">BUTTON-2</string>
+    <string name="edit_tip_btn3">BUTTON-3</string>
+    <string name="edit_tip_btn4">BUTTON-4</string>
+    <string name="commit_btn">Save/Add</string>
+
+    <string name="btn_text_wc">Warm/Cool</string>
+
+    <string name="uesr_icon_text">Login/Register</string>
+
+    <string name="hint_username">User Name</string>
+    <string name="hint_pwd">Password</string>
+    <string name="hint_confirm_pwd">Confirm Password</string>
+    <string name="hint_phone">Cell phone number</string>
+    <string name="hint_email">Email</string>
+    <string name="url_details">
+        <u>details</u>
+    </string>
+    <string name="check_agree">Agree with the terms of the user</string>
+
+    <string name="remember_pwd">Remember Pwd</string>
+    <string name="forgot_pwd">Forgot Pwd</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+
+    <string name="requir_username">Please input User Name</string>
+    <string name="requir_pwd">Please input PassWord</string>
+    <string name="wrong_format_pwd">Wrong PassWord format input</string>
+    <string name="wrong_format_username">Wrong User Name format input</string>
+
+    <string name="server_no_response">Unknown Server Error</string>
+    <string name="wrong_username_or_pwd">Wrong UserName/Pwd</string>
+
+    <string name="register_failed">Registration Failed</string>
+    <string name="unavailable_username">Unavailable User Name</string>
+    <string name="confirm_failed">Two input passwords are not consistent</string>
+    <string name="wrong_phone">Wrong Phonetic</string>
+
+    <string name="set_item_mag">Controller Management</string>
+    <string name="set_item_mag_s">Scene Management</string>
+    <string name="set_item_config">Config Controller WIFI</string>
+    <string name="set_item_logout">Logout</string>
+
+    <string name="again_exit">Push again To Exit</string>
+    <string name="empty_text">Push Add to Add Controller First</string>
+
+    <string name="input_scene_name">Scene Name</string>
+    <string name="choose_scene_icon">Scene Icon</string>
+
+</resources>

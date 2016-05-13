@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="swipeRefreshLayout" type="id"></item>
+
+    <item name="none_callback" type="id"></item>
+
+    <item name="loginOk" type="id"></item>
+    <item name="loginNc" type="id"></item>
+
+    <item name="registerNc" type="id"></item>
+    <item name="registerOk" type="id"></item>
+
+    <item name="refresh" type="id"></item>
+
+    <item name="errorTip" type="id"></item>
+    <item name="addOK" type="id"></item>
+    <item name="addNC" type="id"></item>
+
+    <item name="loadComplete" type="id"></item>
+    <item name="noDataLoaded" type="id"></item>
+
+    <item name="loadServerData" type="id"></item>
+
+
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+</resources>
